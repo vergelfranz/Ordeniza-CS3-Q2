@@ -1,0 +1,180 @@
+body {
+	background-color: #e6ffe6;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 8%;
+	background-color: hsl(120, 100%, 6%);
+	z-index: 1;
+}
+#logo {
+	float: left;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 40px;
+	height: 40px;
+}
+#headname {
+	position: relative;
+	top: -12px;
+	left: 20px;
+	color: white;
+}
+#topic {
+	position: absolute; 
+	left: 0;
+	top: 3%;
+	width: 100%;
+	height: 15%;
+	font-size: 40px;
+	font-family: Lucida Console;
+	text-align: center;
+	color: black;
+}
+nav {
+	position: absolute;
+	top: 23%;
+	width: 100%;
+	height: 5%;
+	left: 0;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #009973;
+	overflow: hidden;
+	padding-left: 15%;
+}
+li a:link{
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: verdana;
+	font-size: 23px;
+	text-decoration: none;
+	color: black;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+}
+li a:visited{
+	color: #0a1010;
+}
+li a:hover{
+	color: white;
+	background-color: #001a00;
+}
+li a:active{
+	color: white;
+	background-color: #001a00;
+}
+#socmeds {
+	position: absolute;
+	right: 1%;
+	top: 10px;
+}
+div {
+	float: left;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+#facebook {
+	background:url("../../images/icon.png") no-repeat -182px -17px;
+	width: 32px;
+	height: 32px;
+	}
+#facebook:hover { 
+	background:url("../../images/icon.png") no-repeat -182px -91px;
+	width: 32px;
+	height: 32px;
+	}
+#twitter {
+	background:url("../../images/icon.png") no-repeat -296px -16px;
+	width: 32px;
+	height: 32px;
+	}
+#twitter:hover { 
+	background:url("../../images/icon.png") no-repeat -296px -91px;
+	width: 32px;
+	height: 32px;
+	}
+#instagram {
+	background:url("../../images/icon.jpg") no-repeat -240px -16px;
+	width: 32px;
+	height: 32px;
+	filter: brightness(130%);
+	}
+#instagram:hover { 
+	background:url("../../images/icon.jpg") no-repeat -240px -91px;
+	width: 32px;
+	height: 32px;
+	}
+#github {
+	background:url("../../images/icon.png") no-repeat -412px -16px;
+	width: 32px;
+	height: 32px;
+	}
+#github:hover { 
+	background:url("../../images/icon.png") no-repeat -412px -91px;
+	width: 32px;
+	height: 32px;
+	}
+	
+#Photo {
+	position: absolute;
+	left: 0;
+	top: 29%;
+	width: 100%;
+}
+p {
+	position: absolute;
+	top: 80%;
+	font-size: 25px;
+	font-family: georgia;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+}
+#SidePhoto {
+	position: absolute;
+	top: 81%;
+	left: 0.5%;
+	width: 15%;
+	height: 500px;
+}
+#SidePhoto2 {
+	position: absolute;
+	top: 81%;
+	right: 0.5%;
+	width: 15%;
+	height: 500px;
+}
+#Photo:hover{
+	transform: rotatex(360deg);
+	transition-duration: 2s;
+}
+#SidePhoto:hover{
+	transform: rotatey(360deg);
+	transition-duration: 4s;
+}
+#SidePhoto2:hover{
+	transform: rotatey(360deg);
+	transition-duration: 4s;
+}
+#bttn {
+	opacity: 0;
+}
+footer {
+	position: absolute;
+	bottom: -100%;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 10px;
+	background-color: #94b8b8;
+}
